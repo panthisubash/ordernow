@@ -1,0 +1,53 @@
+---
+# This is just an example how to write yaml file. 
+
+Name: DevOps Team
+User: 5
+Task: 
+  - Write codes
+  - Build a website
+  - Builed a pipeline 
+  - Lunch website through AWS
+  - Final delevery to customer
+Goals: 
+  - Team work
+  - Customer setisfaction
+    - Best quality product
+    - On time service
+  - Revenue 
+
+---
+# Learning Yaml
+Comments: "# Learning Yaml"
+Serialization Language:
+  - XML
+  - JSON
+  - YAML (YAML Ain't Markup Language):
+      - Syntax:
+          - Key-Value Pairs: 
+            - Keys: Value
+
+          - Lists: 
+            - Item1
+            - Item2
+            - Item3
+          - Booleans: 
+            - Deployed: True
+
+          - List under List: 
+            - North America  
+            - Asia
+              - Japan
+              - Nepal
+              - India
+                 - New Delhi
+                 - Mumbai
+                 - Pune
+                 
+          - Dictionary: 
+            Person:
+             - Name: Reyansh
+             - Age: 8
+             - Occupation: Student
+           
+
